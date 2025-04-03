@@ -32,3 +32,5 @@ You may use one of the following for this task:
 - Python (NumPy, SciPy, Matplotlib)
 - Scilab
 - MATLAB
+
+<img width="641" alt="image" src="https://github.com/user-attachments/assets/570db25c-0f10-4c0e-b744-42fea14e8c7e" />
