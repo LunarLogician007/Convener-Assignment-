@@ -1,6 +1,6 @@
 ## Autonomous Navigation on TurtleBot3 using ROS 2 and Docker
 
-We aim to implement **autonomous navigation** on the **TurtleBot3** platform by leveraging the standard ROS 2 packages as outlined in the official [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/). The development environment will utilize the previously configured Docker image used for the **fROSty** project, ensuring consistency and portability across systems.
+Aim :- To implement **autonomous navigation** on the **TurtleBot3** platform by leveraging the standard ROS 2 packages as outlined in the official [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/). The development environment will utilize the previously configured Docker image used for the **fROSty** project, ensuring consistency and portability across systems.
 
 ### System Architecture
 
@@ -29,9 +29,9 @@ All configurations—including robot model selection, sensor calibration, map sa
 
 The entire implementation will be containerized using Docker. The container will include:
 
-- ROS 2 (Humble/Foxy, depending on compatibility).
+- ROS 2 (Humble).
 - SLAM packages (Cartographer).
 - Navigation stack (Nav2).
 - Visualization tools like RViz2.
-- Simulation tools like Gazebo (optional).
+- Simulation tools like Gazebo .
 
