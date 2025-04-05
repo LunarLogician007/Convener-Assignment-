@@ -27,4 +27,16 @@ The entire implementation will be containerized using Docker. The container will
 - Visualization tools like RViz2.
 - Simulation tools like Gazebo .
 
+## 4. Final Submission
+
+Please submit the following:
+
+- **Complete ZIP file** of the ROS 2 workspace, including all packages, configuration files, and launch files used for the implementation.
+-  **Screen recording** demonstrating autonomous navigation of the TurtleBot3, showcasing:
+  - SLAM in action (mapping and localization).
+  - Goal setting and successful path execution.
+  - Obstacle avoidance behavior.
+
+Ensure that the video clearly captures RViz2, Gazebo and the robot's movement during the navigation process.
+
 
