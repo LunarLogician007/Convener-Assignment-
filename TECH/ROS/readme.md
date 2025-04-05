@@ -1,6 +1,6 @@
 ## Autonomous Navigation on TurtleBot3 using ROS 2 and Docker
 
-Aim :- To implement **autonomous navigation** on the **TurtleBot3** platform by leveraging the standard ROS 2 packages as outlined in the official [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/). The development environment will utilize the previously configured Docker image used for the **fROSty 2024** Bootcamp by ERC , ensuring consistency and portability across systems.
+Aim :- To implement **autonomous navigation** on the **TurtleBot3** platform by leveraging the standard ROS 2 packages as outlined in the official [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/). The development environment will utilize the previously configured Docker image used for the [**fROSty 2024** Bootcamp by ERC](https://github.com/erciitb/fROSty-winter-2024)
 
 ### System Architecture
 
