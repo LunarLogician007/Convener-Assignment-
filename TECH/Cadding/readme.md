@@ -6,7 +6,7 @@ Your task is to model the walking motion of a leg using the Theo Jansen Mechanis
 
 ### Resources
 - [Theo Jansen Mechanism – Wikipedia](https://en.wikipedia.org/wiki/Strandbeest)
-- [Simulation Examples on YouTube](https://www.youtube.com/results?search_query=theo+jansen+mechanism+solidworks)
+- [Simulation refernece](https://youtu.be/clGEbGLUyoQ?si=cIQ7GGih1kPLC62C)
 
 - ### Submission Guidelines
 
