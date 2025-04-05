@@ -8,6 +8,10 @@ Your task is to model the walking motion of a leg using the Theo Jansen Mechanis
 - [Theo Jansen Mechanism – Wikipedia](https://en.wikipedia.org/wiki/Strandbeest)
 - [Simulation refernece](https://youtu.be/clGEbGLUyoQ?si=cIQ7GGih1kPLC62C)
 
+For simplicity case only one leg movement is enough as shown
+![one leg](https://github.com/user-attachments/assets/aee0bb9e-095d-474c-bfd2-d6c18f698dde)
+
+
 ### Submission Guidelines
 
 Please submit the following:
