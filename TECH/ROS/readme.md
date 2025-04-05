@@ -9,23 +9,15 @@ The system integrates two core components essential for autonomous mobile roboti
 #### 1. Simultaneous Localization and Mapping (SLAM)
 We will use **Cartographer**, a real-time SLAM algorithm developed by Google, to enable the TurtleBot3 to:
 
-- Construct a 2D map of an unknown environment in real-time.
+- Construct a 2D map of the environment in real-time which will be used later.
+Follow the Slam subsection under the simulation in the [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/).
 
 #### 2. ROS 2 Navigation Stack
-For path planning and control, we will employ the **ROS 2 Navigation Stack**, which includes:
+### 2. ROS 2 Navigation Stack
+For path planning and control, we will employ the **ROS 2 Navigation Stack (Nav2)**. It enables the robot to autonomously reach a specified goal while avoiding obstacles and reacting to dynamic changes in the environment. The stack integrates motion planning, control, and recovery mechanisms into a modular framework.
 
-- **Global planner**: Generates an optimal path from the current location to a user-defined goal.
-- **Local planner**: Generates velocity commands that consider immediate obstacles.
-- **Recovery behaviors**: Handles failure scenarios such as being stuck or blocked.
+Follow the naviagtion subsection under the simulation in the [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/).
 
-These components work together to ensure smooth and intelligent movement through the environment.
-
-### Configuration and Deployment
-
-All configurations—including robot model selection, sensor calibration, map saving/loading, and parameter tuning—will strictly follow the official guidelines. This ensures:
-
-- **Reliability** across different test environments.
-- **Reproducibility** for future use or educational purposes.
 
 The entire implementation will be containerized using Docker. The container will include:
 
@@ -34,4 +26,5 @@ The entire implementation will be containerized using Docker. The container will
 - Navigation stack (Nav2).
 - Visualization tools like RViz2.
 - Simulation tools like Gazebo .
+
 
