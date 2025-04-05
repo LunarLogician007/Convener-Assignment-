@@ -10,9 +10,6 @@ The system integrates two core components essential for autonomous mobile roboti
 We will use **Cartographer**, a real-time SLAM algorithm developed by Google, to enable the TurtleBot3 to:
 
 - Construct a 2D map of an unknown environment in real-time.
-- Localize itself within the map while navigating.
-
-This eliminates the need for a pre-existing map and allows for dynamic exploration.
 
 #### 2. ROS 2 Navigation Stack
 For path planning and control, we will employ the **ROS 2 Navigation Stack**, which includes:
