@@ -1,4 +1,4 @@
-## Theo Jansen Mechanism – Leg Modeling Task
+## Leg Cadding Task
 
 Did you know that while most robotic legs use two or more actuators, it is possible to replicate a walking motion using just a single motor? This is made possible by the **Theo Jansen Mechanism**, which cleverly transforms simple rotational motion into a natural walking gait. Despite its elegance, the mechanism is not overly complex and is well-suited for mechanical modeling.
 
